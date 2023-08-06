@@ -80,11 +80,11 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         [
             InlineKeyboardButton(
                 text="🔊 𝐏𝐥𝐚𝐲 𝐀𝐮𝐝𝐢𝐨",
-                callback_data=f"AdityaPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
+                callback_data=f"INDIA DEVELOPER {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
                 text="𝐏𝐥𝐚𝐲 𝐕𝐢𝐝𝐞𝐨 📺",
-                callback_data=f"AdityaPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
+                callback_data=f"INDIA DEVELOPER {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
             ),
         ],
         [
